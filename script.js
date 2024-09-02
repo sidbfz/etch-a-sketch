@@ -9,7 +9,7 @@ document.addEventListener("mousedown", () => isMouseDown = true);
 document.addEventListener("mouseup", () => isMouseDown = false);
 
 eraser.addEventListener("click", () => {
-    eraser.classList.toggle("change-color");
+    eraser.classList.toggle("eraser-color");
     isEraserOn = !isEraserOn;
 });
 
